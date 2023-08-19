@@ -1,0 +1,4 @@
+name: Skysong_Chat
+version: '${version}'
+main: org.skysong.skysong_chat.Skysong_Chat
+api-version: '1.20'
