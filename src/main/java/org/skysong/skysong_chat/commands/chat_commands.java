@@ -25,7 +25,7 @@ public class chat_commands {
        // }
     }
     @CommandMethod("volume <range>")
-    public void setPlayerChatRange(CommandSender sender, String range){
+    public void setPlayerChatRange(CommandSender sender, @Argument("range") String range){
         // todo: get from config, do not hard code
         String[] ranges = {"global", "region", "local", "quiet"};
 

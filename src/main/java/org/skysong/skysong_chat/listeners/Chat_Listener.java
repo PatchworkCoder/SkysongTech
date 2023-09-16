@@ -11,6 +11,7 @@ public class Chat_Listener implements Listener {
 
     @EventHandler
     public void onChat(AsyncPlayerChatEvent event){
+        event.setCancelled(true);
         var players = Bukkit.getOnlinePlayers();
         for (Player player : players){
             //Colors for chat: #f7d472
