@@ -35,4 +35,18 @@ public class chat_commands {
 
         }
     }
+
+    // NUMI'S NOTE: These are for testing and demonstration.
+    // You can (and should) delete these later.
+
+    @CommandMethod("ic <msg>")
+    public void test_ChatIC(CommandSender sender, @Argument("msg") String msg){
+        plugin.chatHandlerService.SendChatMessage(true, msg);
+    }
+
+    @CommandMethod("ooc <msg>")
+    public void test_ChatOOC(CommandSender sender, @Argument("msg") String msg){
+        plugin.chatHandlerService.SendChatMessage(false, msg);
+    }
+
 }

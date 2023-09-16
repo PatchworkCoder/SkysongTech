@@ -4,3 +4,5 @@ main: org.skysong.skysong_chat.Skysong_Chat
 api-version: '1.20'
 depend:
   - BKCommonLib
+depend:
+  - BKCommonLib
