@@ -31,7 +31,7 @@ public class chat_commands {
 
         if (Arrays.asList(ranges).contains(range)){
             // todo: implement the following
-            sender.sendMessage("You are now speaking in " + volume + "range!");
+            //sender.sendMessage("You are now speaking in " + volume + "range!");
 
         }
     }
